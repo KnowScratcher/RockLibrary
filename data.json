@@ -1,0 +1,29 @@
+[
+    {
+        "id": "#1",
+        "name": "砂岩碎片",
+        "type": "沉積岩",
+        "lithology": "砂岩 / 泥質砂岩",
+        "location": "台灣嘉義縣",
+        "size": "約 2~3 cm",
+        "images": [
+            { "url": "1-1.jpeg", "caption": "正面" },
+            { "url": "1-2.jpeg", "caption": "背面" }
+        ],
+        "observations": ["表面呈棕褐色，顯示出一定程度的鐵質氧化風化層。", "正面具細微的層理或風化紋理。", "顆粒較細緻，質地較為硬實。"],
+        "img_descriptions": [{ "url": "1-1.jpeg", "description":"" }]
+    },
+    {
+        "id": "#2",
+        "name": "泥岩中的植物化石",
+        "type": "沉積岩",
+        "lithology": "泥岩",
+        "location": "Utah, USA",
+        "size": "約 12~15 cm",
+        "images": [
+            { "url": "2-1.jpeg", "caption": "正面" }
+        ],
+        "observations": ["表面呈棕褐色，顯示出一定程度的鐵質氧化風化層。", "正面具細微的層理或風化紋理。", "顆粒較細緻，質地較為硬實。"],
+        "img_descriptions": [{ "url": "1-1.jpeg", "description":"" }]
+    }
+]

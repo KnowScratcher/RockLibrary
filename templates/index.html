@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block title %}石頭收藏目錄 | Rock Collection{% endblock %} {% block content %}
+<header class="text-center py-8">
+    <h1 class="text-3xl font-bold text-slate-900 tracking-tight">野外石頭收藏目錄</h1>
+    <p class="text-slate-500 mt-2">記錄於各地採集之岩石標本與觀察筆記</p>
+</header>
+
+<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    {% for rock in rocks %}
+    <a href="rock_{{ rock.id | replace('#', '') }}.html" class="group bg-white rounded-xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-200">
+        <div class="aspect-video w-full bg-slate-100 overflow-hidden">
+            <img src="img/{{ rock.images[0].url }}" alt="{{ rock.name }}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200" />
+        </div>
+        <div class="p-4">
+            <span class="text-xs font-bold text-amber-600">{{ rock.id }}</span>
+            <h2 class="text-lg font-semibold text-slate-800 mt-1">{{ rock.name }}</h2>
+            <div class="text-xs text-slate-500 mt-2">📍 {{ rock.location }}</div>
+            {% if rock.type == '沉積岩' %}
+            <span class="inline-block bg-amber-600 text-slate-100 text-xs px-2.5 py-1 rounded-full mt-3 font-medium"> 沉積岩 </span>
+            {% elif rock.type == '火成岩' %}
+            <span class="inline-block bg-red-600 text-slate-100 text-xs px-2.5 py-1 rounded-full mt-3 font-medium"> 火成岩 </span>
+            {% elif rock.type == '變質岩' %}
+            <span class="inline-block bg-cyan-600 text-slate-100 text-xs px-2.5 py-1 rounded-full mt-3 font-medium"> 變質岩 </span>
+            {% else %}
+            <span class="inline-block bg-slate-600 text-slate-100 text-xs px-2.5 py-1 rounded-full mt-3 font-medium"> {{ rock.type }} </span>
+            {% endif %}
+        </div>
+    </a>
+    {% endfor %}
+</main>
+{% endblock %}

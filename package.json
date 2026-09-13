@@ -1,0 +1,27 @@
+{
+  "name": "rocklibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://KnowScratcher@github.com/KnowScratcher/RockLibrary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KnowScratcher/RockLibrary/issues"
+  },
+  "homepage": "https://github.com/KnowScratcher/RockLibrary#readme"
+}
