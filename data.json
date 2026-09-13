@@ -10,8 +10,7 @@
             { "url": "1-1.jpeg", "caption": "正面" },
             { "url": "1-2.jpeg", "caption": "背面" }
         ],
-        "observations": ["表面呈棕褐色，顯示出一定程度的鐵質氧化風化層。", "正面具細微的層理或風化紋理。", "顆粒較細緻，質地較為硬實。"],
-        "img_descriptions": [{ "url": "1-1.jpeg", "description":"" }]
+        "observations": ["表面呈棕褐色，顯示出一定程度的鐵質氧化風化層", "斷面可看到細微的層理或風化紋理", "顆粒較細緻，質地較為硬實"]
     },
     {
         "id": "#2",
@@ -20,10 +19,23 @@
         "lithology": "泥岩",
         "location": "Utah, USA",
         "size": "約 12~15 cm",
-        "images": [
-            { "url": "2-1.jpeg", "caption": "正面" }
-        ],
-        "observations": ["表面呈棕褐色，顯示出一定程度的鐵質氧化風化層。", "正面具細微的層理或風化紋理。", "顆粒較細緻，質地較為硬實。"],
-        "img_descriptions": [{ "url": "1-1.jpeg", "description":"" }]
+        "images": [{ "url": "2-1.jpeg", "caption": "正面" }],
+        "observations": ["表面可見植物葉子的形狀", "整體呈現灰色，無明顯顆粒", "含有少量的煤礦"],
+        "img_descriptions": [
+            {
+                "url": "2-2.jpeg",
+                "description": "在這片石頭中除了可以看到葉子的化石，同時也能觀察到煤礦的痕跡，這是因為這片泥岩原本是在煤層附近，後來崩落下來被撿拾，因此參雜了一點煤礦。"
+            }
+        ]
+    },
+    {
+        "id": "#3",
+        "name": "泥岩中的小煤層",
+        "type": "沉積岩",
+        "lithology": "泥岩、煤炭",
+        "location": "Utah, USA",
+        "size": "約 3~6 cm",
+        "images": [{ "url": "3-1.jpeg", "caption": "正面" },{ "url": "3-2.jpeg", "caption": "側面" }],
+        "observations": ["表面呈灰黑色", "裂縫中含有少量煤礦"]
     }
 ]
