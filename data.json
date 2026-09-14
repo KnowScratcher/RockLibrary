@@ -37,5 +37,16 @@
         "size": "約 3~6 cm",
         "images": [{ "url": "3-1.jpeg", "caption": "正面" },{ "url": "3-2.jpeg", "caption": "側面" }],
         "observations": ["表面呈灰黑色", "裂縫中含有少量煤礦"]
+    },
+    {
+        "id": "#4",
+        "name": "火成岩",
+        "type": "火成岩",
+        "lithology": "未知",
+        "location": "Utah, USA",
+        "size": "約 3~6 cm",
+        "images": [{ "url": "4-1.jpeg", "caption": "正面" }],
+        "observations": ["整體呈現灰色，顆粒明顯", "表面有些許斜長石"],
+        "img_descriptions":[{"url": "4-2.jpeg", "description": "在這張照片(放大20x)中乳白色的部分有些許條紋，推測應該是斜長石"}]
     }
 ]
